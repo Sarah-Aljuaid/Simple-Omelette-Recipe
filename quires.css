@@ -1,0 +1,54 @@
+/* 1344px
+84em
+
+1200px
+75em
+
+944px
+59em
+
+704px
+44em
+
+ 544px
+34em  */
+
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+ */
+
+/* 944px */
+@media (max-width: 59em) {
+  main {
+    padding: 0 2.4rem;
+
+    height: auto;
+    width: auto;
+  }
+}
+
+/* 544px */
+@media (max-width: 34em) {
+  main {
+    padding: 0;
+  }
+
+  .Recipe-section {
+    padding: 0;
+
+    gap: 2.4rem;
+  }
+  .heading,
+  .red-c,
+  .list-container {
+    margin: 0 3.2rem;
+  }
+  .b-border {
+    padding-bottom: 2.4rem;
+  }
+}
